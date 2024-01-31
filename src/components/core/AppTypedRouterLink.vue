@@ -12,7 +12,7 @@ const { to } = defineProps<{
 <template>
 	<RouterLink
 		v-slot="{ isActive, isExactActive }"
-		class="rounded text-left ring-primary ring-offset-background duration-100 hover:underline focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 disabled:cursor-not-allowed"
+		class="rounded text-left ring-primary ring-offset-background duration-100 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 disabled:cursor-not-allowed"
 		:to="to as RouteLocationNamedRaw"
 	>
 		<slot
