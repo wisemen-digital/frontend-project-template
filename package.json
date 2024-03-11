@@ -37,7 +37,7 @@
 		"focus-trap-vue": "4.0.3",
 		"formango": "2.0.11",
 		"jsdom": "23.2.0",
-		"pinia": "2.1.7",
+    "radix-vue": "^1.5.1",
 		"radix-vue": "^1.4.9",
 		"tailwind-merge": "2.2.0",
 		"vue": "3.4.14",
@@ -47,7 +47,7 @@
 		"zod": "3.22.4"
 	},
 	"devDependencies": {
-		"@appwise/eslint-config-vue": "1.2.2",
+    "@internationalized/date": "^3.5.2",
 		"@import-meta-env/unplugin": "^0.5.1",
 		"@sentry/vite-plugin": "2.10.2",
 		"@tanstack/vue-query-devtools": "^5.24.0",
